@@ -1,0 +1,12 @@
+title: HMPL
+author:
+  name: ""
+  email: ""
+description: >
+  hmpl is a small template language for displaying UI from server to client.
+theme: minima
+plugins:
+  - jekyll-feed
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/hmpl-lang/hmpl" }
