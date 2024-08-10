@@ -3,7 +3,8 @@ author:
   name: ""
   email: ""
 description: >
-  hmpl is a small template language for displaying UI from server to client.
+  hmpl is a small template language
+  for displaying UI from server to client.
 theme: minima
 plugins:
   - jekyll-feed
