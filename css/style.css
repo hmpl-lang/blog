@@ -27,3 +27,9 @@
 .social-media-list li:hover svg {
   fill: #1f2328;
 }
+
+@media screen and (max-width: 600px) {
+  .site-nav .page-link {
+    margin-left: 0;
+  }
+}
