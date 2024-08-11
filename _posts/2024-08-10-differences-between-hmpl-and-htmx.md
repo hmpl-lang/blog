@@ -5,7 +5,7 @@ date: 2024-08-10 2:10 PM
 categories: blog
 ---
 
-Hello everyone! In this post I would like to tell you about the difference between the HMPL template language and the HTMX library. This question often arises when first getting to know the language, so I will try to describe the differences as fully as possible.
+Hello everyone! In this post, I would like to tell you about the differences between the HTML template language and the HTML library. This question often arises when you first get acquainted with the language, so I will try to describe the differences as fully as possible.
 
 I have highlighted a list of differences that I believe are the most significant:
 
