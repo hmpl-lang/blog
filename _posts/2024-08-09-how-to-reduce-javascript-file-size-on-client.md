@@ -23,14 +23,14 @@ createApp({
   },
   template: `<div>
         <button @click="count++">Click!</button>
-        <div>Clicks: {{ count }}</div>
+        {% raw %}<div>Clicks: {{ count }}</div>{% endraw %}
     </div>`,
 }).mount("#app");
 ```
 
 A super simple clicker, but even it requires a fair amount of lines of code in js, let alone those cases when the application is more or less large.
 
-![File size](/images/2024-08-09-how-to-reduce-javascript-file-size-on-client/image1.png)
+![File size](/blog/images/2024-08-09-how-to-reduce-javascript-file-size-on-client/image1.png)
 
 > Even without two commas, there could be a few bytes less
 
@@ -45,7 +45,7 @@ document.querySelector("#app").appendChild(
   hmpl.compile(
     `<div>
         <button>Click!</button>
-        <div>Clicks: {{ src: "/api/clicks", after: "click:button" }}</div>
+        {% raw %}<div>Clicks: {{ src: "/api/clicks", after: "click:button" }}</div>{% endraw %}
     </div>`
   )().response
 );
@@ -53,7 +53,7 @@ document.querySelector("#app").appendChild(
 
 As you can see, the UI will be the same, but the file size will be a little smaller.
 
-![File size](/images/2024-08-09-how-to-reduce-javascript-file-size-on-client/image2.png)
+![File size](/blog/images/2024-08-09-how-to-reduce-javascript-file-size-on-client/image2.png)
 
 _Even if you minify the files and remove all unnecessary spaces from the templates, maybe the files will be on par or something bigger, but this is just an assumption on small examples. If we take large applications, then it is obvious that with this approach there will be much less js._
 
