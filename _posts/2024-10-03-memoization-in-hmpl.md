@@ -157,4 +157,4 @@ module.exports = {
 
 Thank you all so much for reading this article!
 
-P.S. More changes that have been made to the new version 2.1.3 can be found [here](https://hmpl-lang.github.io/#/changelog?id=_213-2024-09-29).
+P.S. More changes that have been made to the new version 2.1.3 can be found [here](https://hmpl-lang.github.io/changelog.html#_2-1-3-2024-09-29).

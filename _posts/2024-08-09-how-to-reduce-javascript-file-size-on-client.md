@@ -67,5 +67,5 @@ Thank you all very much for reading this post!
 
 List of materials:
 
-- [https://hmpl-lang.github.io/#/docs](https://hmpl-lang.github.io/#/docs)
-- [https://vuejs.org/guide/quick-start.html](https://vuejs.org/guide/quick-start.html)
+- [hmpl docs](https://hmpl-lang.github.io/introduction.html)
+- [vue docs](https://vuejs.org/guide/introduction.html)

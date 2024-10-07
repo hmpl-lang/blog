@@ -94,5 +94,5 @@ Thank you all for reading the post!
 
 Sources:
 
-- [https://hmpl-lang.github.io/#/docs](https://hmpl-lang.github.io/#/docs)
+- [https://hmpl-lang.github.io/#/docs](https://hmpl-lang.github.io/introduction.html)
 - [https://htmx.org/docs](https://htmx.org/docs)
