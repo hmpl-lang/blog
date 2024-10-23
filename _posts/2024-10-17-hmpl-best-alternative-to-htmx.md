@@ -87,7 +87,7 @@ const templateFn = compile(
       <input type="submit" value="Register!" />
     </div>
   </form>
-  <p>{
+  <p id="notification">{
     {
       "src":"/api/register",
       "after":"submit:#form",
